@@ -3,16 +3,506 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Dhivyan Jeshua S | Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Dhivyan Jeshua S, a software developer and designer based in Chennai, India. Specializing in AI-driven solutions, design systems, and quantum algorithms.">
+    <meta name="keywords" content="Dhivyan Jeshua, dhivyanj, VIT Chennai, Software Developer, Chennai, Python, Web Developer, NilaiAI, PyNote">
+    <meta name="author" content="Dhivyan Jeshua S">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="centered">
-        <h1>testing123</h1>
-        <p>content varathu uruthi, thethi pinnar arivikkapadum</p>
+
+    <!-- Glow background effect blobs -->
+    <div class="bg-glows">
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+        <div class="glow-blob blob-3"></div>
     </div>
+
+    <!-- Navigation Header -->
+    <header id="main-header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" id="nav-logo">
+                <span>&lt;</span>DhivyanJ<span>/&gt;</span>
+            </a>
+            <button class="menu-toggle" id="menu-toggle-btn" aria-label="Toggle Navigation Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navigation-list">
+                <li><a href="#home" id="link-home">Home</a></li>
+                <li><a href="#about" id="link-about">About</a></li>
+                <li><a href="#skills" id="link-skills">Skills</a></li>
+                <li><a href="#projects" id="link-projects">Projects</a></li>
+                <li><a href="#stats" id="link-stats">Stats</a></li>
+                <li><a href="#contact" id="link-contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <div class="hero-tag" id="status-badge">
+                    <span></span> Open to Collaborate & Learn
+                </div>
+                <h1 class="hero-title" id="main-hero-title">
+                    Hi, I'm <span class="gradient-text">Dhivyan Jeshua</span>
+                </h1>
+                <p class="hero-desc" id="main-hero-desc">
+                    A passionate software developer and designer from Chennai, India. I build custom interfaces, explore AI-driven mental health support tools, and dive into quantum computing.
+                </p>
+                <div class="hero-btns" id="hero-actions">
+                    <a href="#projects" class="btn btn-primary" id="btn-hero-projects">
+                        Explore Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="hero-socials" id="hero-social-links">
+                    <span>CONNECT WITH ME</span>
+                    <a href="https://github.com/dhivyanj" target="_blank" aria-label="GitHub Profile" id="hero-social-github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/dhivyanj" target="_blank" aria-label="LinkedIn Profile" id="hero-social-linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/dhivyan.j" target="_blank" aria-label="Instagram Profile" id="hero-social-instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:dhivyanjeshua@gmail.com" aria-label="Send Email" id="hero-social-email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-avatar-area" id="avatar-display">
+                <div class="avatar-glowing-ring">
+                    <div class="avatar-image-container">
+                        <img src="https://avatars.githubusercontent.com/u/110014750?v=4" alt="Dhivyan Jeshua S Avatar" id="avatar-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01. About Me</span>
+                <h2 class="section-title">My Journey</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" id="about-description">
+                    <p>
+                        I am a developer who loves building things from scratch. Whether it is a pure handwritten static website created under a time limit or a complex mental health tracking AI system, I enjoy translating ideas into functional code.
+                    </p>
+                    <p>
+                        Currently, I am associated with the <strong>IEEE Computer Society at VIT Chennai</strong>, collaborating with peers to organize tech initiatives and solve engineering challenges.
+                    </p>
+                    <p>
+                        My approach focuses on writing clean, readable code and designing accessible user interfaces that make technology feel intuitive and premium.
+                    </p>
+                </div>
+                <div class="about-cards-grid" id="about-cards">
+                    <div class="about-mini-card">
+                        <i class="fas fa-university"></i>
+                        <h3>Education</h3>
+                        <p>Student at Vellore Institute of Technology, Chennai. Formerly FIITJEE Global School.</p>
+                    </div>
+                    <div class="about-mini-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Community</h3>
+                        <p>Active member and contributor at IEEE Computer Society, VIT Chennai.</p>
+                    </div>
+                    <div class="about-mini-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Interests</h3>
+                        <p>Exploring Quantum Algorithms, AI Mental Health tools, and clean UI engineering.</p>
+                    </div>
+                    <div class="about-mini-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Hackathons</h3>
+                        <p>Participant in IBM Quantum Future Frontiers 2025 (IBM QFF25) and local tech meets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02. Abilities</span>
+                <h2 class="section-title">Tech Stack</h2>
+            </div>
+            
+            <div class="skills-tabs" id="skills-category-tabs">
+                <button class="skills-tab-btn active" data-category="all" id="tab-all">All</button>
+                <button class="skills-tab-btn" data-category="languages" id="tab-languages">Languages</button>
+                <button class="skills-tab-btn" data-category="tools" id="tab-tools">Tools & Libs</button>
+                <button class="skills-tab-btn" data-category="design" id="tab-design">Design</button>
+                <button class="skills-tab-btn" data-category="other" id="tab-other">Platforms</button>
+            </div>
+
+            <div class="skills-grid" id="skills-list">
+                <!-- Python -->
+                <div class="skill-card" data-category="languages" id="skill-python">
+                    <i class="fab fa-python" style="color: #3776AB;"></i>
+                    <span>Python</span>
+                </div>
+                <!-- Java -->
+                <div class="skill-card" data-category="languages" id="skill-java">
+                    <i class="fab fa-java" style="color: #007396;"></i>
+                    <span>Java</span>
+                </div>
+                <!-- C -->
+                <div class="skill-card" data-category="languages" id="skill-c">
+                    <svg viewBox="0 0 24 24" width="40" height="40" fill="#00599C">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8c2.81 0 5.29 1.46 6.74 3.66l-1.63 1.02C16.03 7.07 14.15 6 12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.15 0 4.03-1.07 5.11-2.68l1.63 1.02C17.29 18.54 14.81 20 12 20z"/>
+                    </svg>
+                    <span>C Language</span>
+                </div>
+                <!-- HTML5 -->
+                <div class="skill-card" data-category="languages" id="skill-html">
+                    <i class="fab fa-html5" style="color: #E34F26;"></i>
+                    <span>HTML5</span>
+                </div>
+                <!-- CSS3 -->
+                <div class="skill-card" data-category="languages" id="skill-css">
+                    <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                    <span>CSS3</span>
+                </div>
+                <!-- LaTeX -->
+                <div class="skill-card" data-category="languages" id="skill-latex">
+                    <i class="fas fa-file-pdf" style="color: #008080;"></i>
+                    <span>LaTeX</span>
+                </div>
+                <!-- NumPy -->
+                <div class="skill-card" data-category="tools" id="skill-numpy">
+                    <i class="fas fa-calculator" style="color: #013243;"></i>
+                    <span>NumPy</span>
+                </div>
+                <!-- Pandas -->
+                <div class="skill-card" data-category="tools" id="skill-pandas">
+                    <i class="fas fa-table" style="color: #150458;"></i>
+                    <span>Pandas</span>
+                </div>
+                <!-- Git -->
+                <div class="skill-card" data-category="tools" id="skill-git">
+                    <i class="fab fa-git-alt" style="color: #F05033;"></i>
+                    <span>Git</span>
+                </div>
+                <!-- GitHub -->
+                <div class="skill-card" data-category="tools" id="skill-github">
+                    <i class="fab fa-github" style="color: #ffffff;"></i>
+                    <span>GitHub</span>
+                </div>
+                <!-- Figma -->
+                <div class="skill-card" data-category="design" id="skill-figma">
+                    <i class="fab fa-figma" style="color: #F24E1E;"></i>
+                    <span>Figma</span>
+                </div>
+                <!-- Canva -->
+                <div class="skill-card" data-category="design" id="skill-canva">
+                    <i class="fas fa-palette" style="color: #00C4CC;"></i>
+                    <span>Canva</span>
+                </div>
+                <!-- Vercel -->
+                <div class="skill-card" data-category="other" id="skill-vercel">
+                    <i class="fas fa-triangle" style="color: #ffffff; transform: rotate(180deg);"></i>
+                    <span>Vercel</span>
+                </div>
+                <!-- Netlify -->
+                <div class="skill-card" data-category="other" id="skill-netlify">
+                    <i class="fas fa-cloud" style="color: #00C7B7;"></i>
+                    <span>Netlify</span>
+                </div>
+                <!-- Notion -->
+                <div class="skill-card" data-category="other" id="skill-notion">
+                    <i class="fas fa-file-lines" style="color: #ffffff;"></i>
+                    <span>Notion</span>
+                </div>
+                <!-- Raspberry Pi -->
+                <div class="skill-card" data-category="other" id="skill-rpi">
+                    <i class="fab fa-raspberry-pi" style="color: #C51A4A;"></i>
+                    <span>Raspberry Pi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03. Showcase</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
+            <div class="projects-grid" id="project-cards-list">
+                <!-- Project 1: NilaiAI -->
+                <div class="project-card" id="proj-nilai">
+                    <div class="project-header">
+                        <i class="far fa-folder project-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/dhivyanj/NilaiAI" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                            <a href="https://nilai-ai.vercel.app" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">NilaiAI</h3>
+                        <p class="project-desc">
+                            AI-driven Mental Health Monitoring application built to assess wellbeing, offering intelligent tracking insights and resources.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">AI</span>
+                            <span class="project-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: PyNote -->
+                <div class="project-card" id="proj-pynote">
+                    <div class="project-header">
+                        <i class="far fa-folder project-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/dhivyanj/PyNote" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">PyNote</h3>
+                        <p class="project-desc">
+                            A beginner-friendly, clean desktop text editor application designed and constructed utilizing Python and Tkinter UI module.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Tkinter</span>
+                            <span class="project-tag">GUI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: IBM QFF25 Hackathon -->
+                <div class="project-card" id="proj-qff25">
+                    <div class="project-header">
+                        <i class="far fa-folder project-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/dhivyanj/ibm-qff25-hackathon" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">IBM QFF25 Notebooks</h3>
+                        <p class="project-desc">
+                            Quantum computing notebooks, algorithms, and simulation models created for the IBM Quantum Future Frontiers 2025 Hackathon.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag">Jupyter</span>
+                            <span class="project-tag">Qiskit</span>
+                            <span class="project-tag">Quantum</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Habit Tracker -->
+                <div class="project-card" id="proj-habits">
+                    <div class="project-header">
+                        <i class="far fa-folder project-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/dhivyanj/ieeepf-habit-tracker" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">IEEE Habit Tracker</h3>
+                        <p class="project-desc">
+                            A tracker utility developed to keep logs of daily challenges, study routines, and habit-building achievements.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Habits</span>
+                            <span class="project-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: FGS Model Website -->
+                <div class="project-card" id="proj-fgs">
+                    <div class="project-header">
+                        <i class="far fa-folder project-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/dhivyanj/fgsmodel" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">fgsmodel Website</h3>
+                        <p class="project-desc">
+                            Pre-AI, pure handwritten UI built without external assistance or code generators under a 3-hour speedrun challenge.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">Vanilla UI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Guess The Song Bot -->
+                <div class="project-card" id="proj-songbot">
+                    <div class="project-header">
+                        <i class="far fa-folder project-folder"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/dhivyanj/ieeefs-GuessTheSongBot" target="_blank" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">GuessTheSong Bot</h3>
+                        <p class="project-desc">
+                            An archived interactive music bot designed to stream short snippets and challenge server users to guess track titles.
+                        </p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Discord API</span>
+                            <span class="project-tag">Bot</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04. Activity</span>
+                <h2 class="section-title">GitHub Overview</h2>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stats-grid" id="stats-dashboard">
+                    <!-- General Stats Card -->
+                    <div class="stats-card" id="card-github-stats">
+                        <h3>GitHub Statistics</h3>
+                        <img src="https://github-readme-stats.vercel.app/api?username=dhivyanj&theme=react&hide_border=true&include_all_commits=true&count_private=true&bg_color=0b0f19&text_color=9ca3af&title_color=14b8a6" alt="Dhivyan Jeshua S GitHub Stats">
+                    </div>
+                    
+                    <!-- Language Stats Card -->
+                    <div class="stats-card" id="card-language-stats">
+                        <h3>Language Distribution</h3>
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhivyanj&theme=react&hide_border=true&bg_color=0b0f19&text_color=9ca3af&title_color=14b8a6&layout=compact" alt="Dhivyan Jeshua S Top Languages">
+                    </div>
+                </div>
+                
+                <!-- Streak Card -->
+                <div class="stats-card" id="card-streak-stats" style="min-height: auto; padding: 1.5rem;">
+                    <h3>Commit Streak Dashboard</h3>
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhivyanj&theme=tokyonight&hide_border=true&background=0b0f19&ring=14b8a6&fire=ec4899&currStreakNum=f3f4f6&sideNums=9ca3af&sideLabels=9ca3af" alt="Dhivyan Jeshua S GitHub Streak" style="width: 100%; max-width: 500px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05. Network</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info" id="contact-info-panel">
+                    <h3>Let's collaborate!</h3>
+                    <p>
+                        I am always open to discussing new opportunities, open-source projects, design challenges, or tech initiatives. Connect with me on any of these platforms:
+                    </p>
+                    <div class="contact-details" id="contact-channels">
+                        <a href="mailto:dhivyanjeshua@gmail.com" class="contact-method" id="contact-email">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email Me</strong><br>
+                                <span>dhivyanjeshua@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/dhivyanj" target="_blank" class="contact-method" id="contact-linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <strong>LinkedIn</strong><br>
+                                <span>in/dhivyanj</span>
+                            </div>
+                        </a>
+                        <a href="https://discord.com/invite/xVCArphVvP" target="_blank" class="contact-method" id="contact-discord">
+                            <i class="fab fa-discord"></i>
+                            <div>
+                                <strong>Discord Server</strong><br>
+                                <span>dhivyanj Discord</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" id="contact-form-panel">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="form-name">Your Name</label>
+                            <input type="text" id="form-name" class="form-control" placeholder="Jane Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Your Email</label>
+                            <input type="email" id="form-email" class="form-control" placeholder="jane@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" class="form-control" placeholder="Hi Dhivyan, let's talk about..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="btn-submit-form" style="width: 100%; justify-content: center;">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-text" id="footer-copyright">
+                &copy; 2026 Dhivyan Jeshua S. Built from scratch with Vanilla HTML, CSS & JS.
+            </div>
+            <a href="#home" class="footer-back-to-top" id="btn-back-to-top">
+                Back to Top <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Script inclusion -->
+    <script src="script.js"></script>
 </body>
 </html>
